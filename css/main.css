@@ -20,7 +20,7 @@ body {
 
 header {
   display: block;
-  background-color: lightgrey;
+  background-color: grey;
   text-align: center;
 }
 h1 {
@@ -29,6 +29,7 @@ h1 {
 }
 
 nav {
+  width: auto;
 }
 a {
   display: inline-block;
@@ -45,6 +46,20 @@ figcaption {
 .gutter {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+footer {
+  background-color: lightgrey;
+}
+ .head {
+   background-color: lightgrey;
+   font-size: 1.3em;
+   margin: 0;
+   text-align: center;
+   padding: 1em;
+ }
+h3 {
+  padding: 1em;
 }
 @media only screen and (min-width: 38em) {
 
